@@ -1,0 +1,34 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+
+
+
+/* Custom scrollbar for Code Studio */
+.code-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.code-scroll::-webkit-scrollbar-track {
+  background: #1a1a2e; /* dark track */
+  border-radius: 10px;
+}
+
+.code-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #a855f7, #7c3aed);
+  border-radius: 10px;
+}
+
+.code-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #c084fc, #9333ea);
+}
+
+/* Firefox support */
+.code-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #a855f7 #1a1a2e;
+}
