@@ -11,7 +11,7 @@ export default function LandingPage() {
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
       strings: [
-        "Intelligence with LogixAI",
+        "Intelligence with Fusion-AI",
         "Build Websites Instantly",
         "Design, Convert & Edit with AI",
         "Smart Tools for Creators",
