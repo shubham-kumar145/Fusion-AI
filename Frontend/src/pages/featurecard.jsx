@@ -6,7 +6,7 @@ export default function FeatureCards() {
 
   const features = [
     {
-      title: "LogixAI Chat",
+      title: "Fusion-AI Chat",
       description: "Advanced AI conversational assistant — understands context, answers technical queries, and assists across learning, development, and productivity tasks.",
       tags: ["AI", "Chat", "React", "LLM"],
       route: "/chat",
