@@ -11,7 +11,7 @@ export default function Footer() {
     { icon:<Linkedin size={17}/>, href:"https://www.linkedin.com/in/ayushi-kumari48/", label:"LinkedIn" },
     { icon:<Instagram size={17}/>, href:"#", label:"Instagram" },
     { icon:<Twitter size={17}/>, href:"#", label:"Twitter" },
-    { icon:<Mail size={17}/>, href:"mailto:hello@logixai.com", label:"Email" },
+    { icon:<Mail size={17}/>, href:"mailto:hello@fusionai145.com", label:"Email" },
   ];
 
   return (
@@ -75,7 +75,7 @@ export default function Footer() {
               Ready to Build with AI?
             </h3>
             <p style={{ color:"rgba(255,255,255,0.38)", fontSize:14.5, marginBottom:28, maxWidth:400, margin:"0 auto 28px", lineHeight:1.65 }}>
-              Join creators and developers already using LogixAI to build, design, and automate.
+              Join creators and developers already using Fusion-AI to build, design, and automate.
             </p>
             <div className="ft-cta-btns">
               <Link to="/signup" className="btn-primary-ft">Get Started Free ✦</Link>
@@ -139,7 +139,7 @@ export default function Footer() {
         <div style={{ marginTop:52 }}>
           <div className="ft-bot-line" />
           <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:10 }}>
-            <p style={{ color:"rgba(255,255,255,0.2)", fontSize:12.5 }}>© {year} LogixAI. All rights reserved.</p>
+            <p style={{ color:"rgba(255,255,255,0.2)", fontSize:12.5 }}>© {year} Fusion-AI. All rights reserved.</p>
             <p style={{ color:"rgba(255,255,255,0.2)", fontSize:12.5, display:"flex", alignItems:"center", gap:5 }}>
               Crafted with <span style={{ color:"#ec4899" }}>❤️</span> using MERN Stack &amp; AI
             </p>
