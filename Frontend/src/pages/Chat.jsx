@@ -160,7 +160,7 @@ export default function Chat({ user }) {
       {/* ── TOP NAVBAR ── */}
       <header className="w-full bg-[#0E0E1A] border-b border-[#2A2A40] flex items-center justify-between px-3 md:px-5 h-12 md:h-14 flex-shrink-0 z-40">
         <p className="text-base md:text-xl font-bold text-[#B026FF] truncate">
-          LogixAI <span className="text-white font-bold">- AI INSTRUCTOR</span>
+          Fusion-AI <span className="text-white font-bold">- AI INSTRUCTOR</span>
         </p>
         <div className="hidden md:flex items-center gap-2">
           <img src="/user_logixai.png" alt="User" className="w-8 h-8 rounded-full object-cover" />
