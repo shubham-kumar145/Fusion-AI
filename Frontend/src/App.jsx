@@ -36,7 +36,7 @@ function App() {
   if (loading) {
     return (
       <div className="h-screen flex items-center justify-center bg-black text-purple-400">
-        Loading LogixAI...
+        Loading Fusion-AI...
       </div>
     );
   }
