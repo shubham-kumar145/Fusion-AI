@@ -24,7 +24,7 @@ export default function Chat({ user }) {
   useEffect(() => {
     if (!typedRef.current) return;
     const typed = new Typed(typedRef.current, {
-      strings: ["LOGIXAI - AI INSTRUCTOR"],
+      strings: ["Fusion-AI - AI INSTRUCTOR"],
       typeSpeed: 120,
       backSpeed: 80,
       loop: true,
